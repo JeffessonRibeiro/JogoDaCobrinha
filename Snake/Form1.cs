@@ -12,7 +12,6 @@ namespace Snake
 {
     public partial class Form1 : Form
     {
-
         Game Game;
         public Form1()
         {
@@ -20,7 +19,6 @@ namespace Snake
             Game = new Game(ref Frame, ref LbPontuacao, ref PnTela);
 
         }
-
      
         private void sairToolStripMenuItem_Click(object sender, EventArgs e)
         {

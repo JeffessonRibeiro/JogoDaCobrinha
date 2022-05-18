@@ -93,7 +93,7 @@
             // 
             // Frame
             // 
-            this.Frame.Interval = 140;
+            this.Frame.Interval = 160;
             this.Frame.Tick += new System.EventHandler(this.Frame_Tick);
             // 
             // Form1
